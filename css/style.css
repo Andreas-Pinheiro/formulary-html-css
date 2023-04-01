@@ -9,7 +9,7 @@ body{
     background-attachment: fixed;
     max-width: 1300px;
     min-height: 100vh;
-    margin: 0 auto;
+    margin: 30px auto;
     display: flex;
     justify-content: center;
     align-items: center;
