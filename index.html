@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Andreas Pinheiro">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Formulary</title>
+</head>
+<body>
+    <main>
+        <form action="#">
+            <h1>Form</h1>
+            <hr>
+            <div class="form-box">
+                <label class="separated-label" for="name">Enter your name:</label>
+                <input type="text" name="name" required>
+            </div>
+            <div class="form-box">
+                <label class="separated-label" for="email">Enter your email:</label>
+                <input type="email" name="email" required>
+            </div>
+            <div class="form-box">
+                <label class="separated-label" for="age">Enter your age: <span class="mini-letters">(optional)</span></label>
+                <input type="number" name="age" min="10" max="122">
+            </div>
+            <div class="form-box">
+                <p class="description">Choose what you prefer:</p>
+                <select name="area">
+                    <option value="choose" selected disabled>Choose:</option>
+                    <option value="front-end">Front-End</option>
+                    <option value="back-end">Back-End</option>
+                </select>
+            </div>
+            <div class="form-box">
+                <p class="description">Choose what you like <span class="mini-letters">(all that apply)</span></p>
+                <label>
+                    <input name="language" type="checkbox" value="html">HTML5
+                </label>
+                <label>
+                    <input name="language" type="checkbox" value="css">CSS3
+                </label>
+                <label>
+                    <input name="language" type="checkbox" value="javascript">JS
+                </label>
+                <label>
+                    <input name="language" type="checkbox" value="python">Python
+                </label>
+                <label>
+                    <input name="language" type="checkbox" value="ruby">Ruby
+                </label>
+                <label>
+                    <input name="language" type="checkbox" value="php">PHP
+                </label>
+            </div>
+            <div class="form-box">
+                <p class="description">Choose your favorite:</p>
+                <label>
+                    <input name="language" type="radio">Linux
+                </label>
+                <label>
+                    <input name="language" type="radio">Windows
+                </label>
+            </div>
+            <div class="form-box">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
