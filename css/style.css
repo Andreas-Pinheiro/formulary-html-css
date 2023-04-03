@@ -34,7 +34,7 @@ p, label.separated-label{
     margin-bottom: 6px;
 }
 input, select{
-    margin: 1px solid black;
+    border: 0.1px solid black;
     border-radius: 10px;
     padding: 4px;
 }
